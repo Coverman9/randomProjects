@@ -1,7 +1,13 @@
 import React from "react";
 import { faker } from "@faker-js/faker";
 import { useState } from "react";
-import Students from "./Students";
+import Students from "../Students";
+import "./Counter.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faArrowCircleLeft} from "@fortawesome/free-solid-svg-icons"
+import { NavLink } from "react-router-dom";
+
+
 
 const Counter = () => {
   let [students, setStudents] = useState([
@@ -34,6 +40,10 @@ const Counter = () => {
   };
   return (
     <>
+    <NavLink to='/home'>
+      <FontAwesomeIcon className="backButton" icon={faArrowCircleLeft} />
+      </NavLink>
+
       <div>Counter: {students.length}</div>
       <div>
         <button

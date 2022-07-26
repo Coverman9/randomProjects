@@ -8,10 +8,10 @@ function Home() {
       <Container>
         <Navbar.Brand href="counter">Counter</Navbar.Brand>
         <Navbar.Brand href="todolist">toDoList</Navbar.Brand>
-        <Navbar.Brand href="#home">Zdarova</Navbar.Brand>
-        <Navbar.Brand href="#home">Zdarova</Navbar.Brand>
-        <Navbar.Brand href="#home">Zdarova</Navbar.Brand>
-        <Navbar.Brand href="#home">Zdarova</Navbar.Brand>
+        <Navbar.Brand href="#">Zdarova</Navbar.Brand>
+        <Navbar.Brand href="#">Zdarova</Navbar.Brand>
+        <Navbar.Brand href="#">Zdarova</Navbar.Brand>
+        <Navbar.Brand href="#">Zdarova</Navbar.Brand>
         
         
       </Container>
