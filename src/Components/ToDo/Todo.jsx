@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { CircularProgress } from "@mui/material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 
 const Todo = () => {
   const [todoDetails, setTodoDetails] = useState();
@@ -21,6 +24,9 @@ const Todo = () => {
 
   return (
     <div>
+      <NavLink to="/todolist">
+        <FontAwesomeIcon className="backButton" icon={faArrowCircleLeft} />
+      </NavLink>
         {todoDetails ? (
             <div>
            <div>{`This is todo number: ${id}`}</div>

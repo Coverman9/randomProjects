@@ -1,6 +1,4 @@
 import React from "react";
-import { faker } from "@faker-js/faker";
-import { useState } from "react";
 import Students from "../Students";
 import "./Counter.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

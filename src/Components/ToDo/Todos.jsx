@@ -3,6 +3,9 @@ import axios from "axios";
 import React from "react";
 import { useState, useEffect } from "react";
 import TodoCard from "./TodoCard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 
 const Todos = () => {
   const [todos, setTodos] = useState();
@@ -18,6 +21,9 @@ const Todos = () => {
 
   return (
     <>
+    <NavLink to="/home">
+        <FontAwesomeIcon className="backButton" icon={faArrowCircleLeft} />
+      </NavLink>
     {todos ? (
     <div style={{display: "flex", flexWrap:"wrap"}}>
         {todos.slice(0,10).map((todo) => (
