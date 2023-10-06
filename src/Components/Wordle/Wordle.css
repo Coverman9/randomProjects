@@ -1,0 +1,21 @@
+.letter {
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+}
+
+.wordsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.wordInput {
+    position: absolute;
+    margin-top: 50px;
+    height: 360px;
+    width: 350px;
+    opacity: 0;
+    cursor: pointer;
+}

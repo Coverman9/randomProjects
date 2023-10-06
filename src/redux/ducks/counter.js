@@ -32,7 +32,6 @@ const initialState = {
 };
 
 export default (state = initialState, action) => {
-  let newState;
   switch (action.type) {
     case INCREMENT:
       const randomName = faker.name.firstName("male");

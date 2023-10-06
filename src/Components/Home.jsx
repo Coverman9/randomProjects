@@ -3,17 +3,21 @@ import Navbar from "react-bootstrap/Navbar";
 
 
 function Home() {
+  function foo(num) {
+    return num % 3;
+  }
+
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="counter">Counter</Navbar.Brand>
         <Navbar.Brand href="todolist">toDoList</Navbar.Brand>
+        <Navbar.Brand href="wordle">Wordle</Navbar.Brand>
         <Navbar.Brand href="#">Zdarova</Navbar.Brand>
         <Navbar.Brand href="#">Zdarova</Navbar.Brand>
         <Navbar.Brand href="#">Zdarova</Navbar.Brand>
-        <Navbar.Brand href="#">Zdarova</Navbar.Brand>
-        
-        
+
+
       </Container>
     </Navbar>
   );
