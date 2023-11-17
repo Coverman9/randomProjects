@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Todos from "./Components/ToDo/Todos";
 import Todo from "./Components/ToDo/Todo";
 import Wordle from "./Components/Wordle/Wordle";
+import Traffic from "./Components/Traffic/Traffic";
+import Wackamole from "./Components/Wackamole/Wackamole";
 
 
 
@@ -22,6 +24,8 @@ function App() {
           <Route path="/todolist" element={<Todos />} />
           <Route path="/todos/:id" element={<Todo />} />
           <Route path="/wordle" element={<Wordle />}/>
+          <Route path="/traffic" element={<Traffic />}/>
+          <Route path="/wackamole" element={<Wackamole />}/>
         </Routes>
       </header>
     </div>

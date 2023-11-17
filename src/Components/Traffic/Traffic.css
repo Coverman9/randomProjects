@@ -1,0 +1,31 @@
+.traffic {
+    background-color: #141414;
+    width: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.light {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.stop {
+    background-color: rgb(237, 6, 6);
+}
+.slow {
+    background-color: rgb(234, 234, 10);
+}
+.go {
+    background-color: rgb(5, 219, 5);
+}
+.on {
+    opacity: 0.33;
+}
+.timer {
+    color: black;
+    font-size: 100px;
+}

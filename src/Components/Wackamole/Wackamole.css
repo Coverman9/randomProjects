@@ -1,0 +1,22 @@
+.emptyHole {
+    height: 160px;
+    width: 250px;
+    background-image: url('./hole.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* gap: 10px; */
+}
+.moleHole {
+    height: 160px;
+    width: 250px;
+    background-image: url('./mole.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

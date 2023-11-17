@@ -13,8 +13,8 @@ function Home() {
         <Navbar.Brand href="counter">Counter</Navbar.Brand>
         <Navbar.Brand href="todolist">toDoList</Navbar.Brand>
         <Navbar.Brand href="wordle">Wordle</Navbar.Brand>
-        <Navbar.Brand href="#">Zdarova</Navbar.Brand>
-        <Navbar.Brand href="#">Zdarova</Navbar.Brand>
+        <Navbar.Brand href="traffic">Traffic</Navbar.Brand>
+        <Navbar.Brand href="wackamole">Wack-a-mole</Navbar.Brand>
         <Navbar.Brand href="#">Zdarova</Navbar.Brand>
 
 
