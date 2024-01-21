@@ -9,7 +9,7 @@ import Todo from "./Components/ToDo/Todo";
 import Wordle from "./Components/Wordle/Wordle";
 import Traffic from "./Components/Traffic/Traffic";
 import Wackamole from "./Components/Wackamole/Wackamole";
-
+import MatchGame from "./Components/MatchCopyGame/MatchGame";
 
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
           <Route path="/wordle" element={<Wordle />}/>
           <Route path="/traffic" element={<Traffic />}/>
           <Route path="/wackamole" element={<Wackamole />}/>
+          <Route path="/matchgame" element={<MatchGame />}/>
         </Routes>
       </header>
     </div>
